@@ -59,4 +59,5 @@ public class MemberController {
         UmsMember umsMember = memberService.getMemberById(memberId);
         return umsMember;
     }
+
 }

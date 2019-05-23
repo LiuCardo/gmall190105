@@ -45,4 +45,5 @@ public class UmsMemberReceiveAddressServiceImpl implements UmsMemberReceiveAddre
     public List<UmsMemberReceiveAddress> getAllReceiveAddress() {
         return umsMemberReceiveAddressMapper.selectAll();
     }
+
 }

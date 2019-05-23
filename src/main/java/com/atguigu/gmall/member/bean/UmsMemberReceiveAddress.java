@@ -11,6 +11,7 @@ import java.io.Serializable;
 @AllArgsConstructor
 public class UmsMemberReceiveAddress implements Serializable {
 
+
     @Id
     private String id;
     private String memberId;
